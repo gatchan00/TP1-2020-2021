@@ -6,9 +6,14 @@ public class Gato extends Animal {
 		super(nombre);
 	}
 	
+	
+	private String dameSonido() {
+		metodoSecreto();
+		return "Miau Miau";
+	}
 	@Override
 	public void hazAlgo() {
-		System.out.println("Miau Miau");
+		System.out.println(dameSonido());
 	}
 
 }
