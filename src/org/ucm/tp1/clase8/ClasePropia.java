@@ -7,6 +7,7 @@ public class ClasePropia implements Serializable{
 	private double b;
 	private String c;
 	private transient int secreto;
+	
 	@Override
 	public String toString() {
 		return "ClasePropia [a=" + a + ", b=" + b + ", c=" + c + ", secreto="+secreto+"]";
